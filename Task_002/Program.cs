@@ -11,8 +11,10 @@ int y = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите число: ");
 int z = Convert.ToInt32(Console.ReadLine());
 
-if (x + y > z || x + z > y || z + y > x) Console.WriteLine("Да, может существовать треугольник");
+
+if (x + y > z && x + z > y && z + y > x) Console.WriteLine("Да, может существовать треугольник");
 else Console.WriteLine("Нет, треугольник существовать не может");
+
 /*
 Console.WriteLine("\nВведите сторону a: ");
 int side_a = Convert.ToInt32(Console.ReadLine());

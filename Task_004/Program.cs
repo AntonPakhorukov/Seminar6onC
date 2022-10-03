@@ -18,7 +18,7 @@ string GetBinary(int x)
     string one = String.Empty;
     while (x > 0)
     {
-        one = x % 2 + one;
+        one = x % 2 + one; // так реализован разворот массива
         x = x / 2;
     }
     return one;

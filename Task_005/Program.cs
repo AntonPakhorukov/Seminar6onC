@@ -6,13 +6,13 @@
 */
 Console.Clear();
 Console.Write("Введите число: ");
-int num2 = int.Parse(Console.ReadLine());
+int number = int.Parse(Console.ReadLine());
 
-int[] array = new int[num2];
+int[] array = new int[number];
 array[0] = 0;
 array[1] = 1;
 
-for (int i = 2; i < num2; i++)
+for (int i = 2; i < number; i++)
 {
     array[i] = array[i-1] + array[i-2];
 }
